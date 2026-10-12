@@ -1,0 +1,9 @@
+LASERLINK V6 - TESTE ONLINE
+
+1. Extraia o ZIP.
+2. Abra index.html no Chrome.
+3. Na tela inicial deve aparecer "Backend online" quando houver internet.
+4. Você pode testar o fluxo local de cadastro/login e Área do Cliente da V5.2.
+5. O indicador online consulta o projeto Supabase real usando somente a chave publicável.
+6. Nesta etapa, cadastro/login do frontend ainda é local. Não use senhas reais.
+7. Próxima integração: substituir autenticação local por Supabase Auth e gravar os cadastros no banco real.

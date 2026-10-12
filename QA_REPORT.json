@@ -1,0 +1,15 @@
+{
+  "executions": 1500,
+  "accounts_created": 1000,
+  "leads_created": 334,
+  "rentals_created": 200,
+  "demands_created": 250,
+  "bookings_created": 199,
+  "failures": 0,
+  "status": "PASS",
+  "notes": [
+    "Teste lógico/estresse do modelo local.",
+    "Não substitui testes E2E em navegador, segurança, carga do backend, pagamentos reais ou lojas de aplicativos."
+  ],
+  "failure_samples": []
+}

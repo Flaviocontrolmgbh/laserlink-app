@@ -1,0 +1,84 @@
+LASERLINK V3 OPERACIONAL - MVP LOCAL
+
+Critério desta versão:
+Validar cadastro, mapa, distância, parceria, contraproposta, Laser Day, chat, preços, perfil e equipamento sem depender de Flutter.
+
+FUNCIONALIDADES
+- login por perfil: profissional, salão e cliente
+- cadastro de salões com coordenadas GPS
+- mapa OpenStreetMap
+- GPS do profissional
+- filtro de salões por raio: 10, 25, 50, 100 km
+- ordenação por distância geográfica
+- comissão pretendida do salão
+- proposta, contraproposta e aceite
+- Laser Days e vagas
+- chat local demonstrativo
+- procedimentos e preços definidos pela profissional
+- cadastro de equipamento
+- perfil
+- armazenamento local no aparelho
+
+LIMITES DO MVP
+- Dados ainda ficam somente no aparelho/browser.
+- Salões iniciais são demonstrativos.
+- Distância é em linha reta, não rota de carro.
+- Chat não sincroniza entre dois celulares.
+- Não há pagamento real nem upload real de documentos.
+
+PRÓXIMA CAMADA DE PRODUÇÃO
+Exige backend/autenticação para sincronizar usuários, salões, agenda, mensagens, documentos e pagamentos.
+
+
+V4 MONETIZAÇÃO
+- Plano Essencial: grátis + comissão simulada de 10%
+- Plano Pro: R$ 39,90/mês + comissão simulada de 6%
+- Plano Premium: R$ 79,90/mês + comissão simulada de 3%
+- Simulador de split salão / LaserLink / profissional
+- Projeção de receita recorrente e transacional
+- Nenhum pagamento real é processado nesta versão.
+- Percentuais e preços são hipóteses comerciais ajustáveis para validação.
+
+
+V5 GROWTH
+- central de captação
+- funil de leads de salões
+- lead score local
+- cadastro de locadores de máquinas
+- diária e raio de atendimento
+- demanda de clientes por região/procedimento
+- detector local de oportunidades
+- cruzamento simples de demanda + salão + locador
+- ação comercial
+- mantém mapa, parcerias, agenda, serviços e monetização da V4
+
+SEGURANÇA/COMPLIANCE
+A V5 NÃO raspa resultados da Pesquisa Google automaticamente.
+Integrações futuras devem usar APIs/fontes permitidas e respeitar termos e privacidade.
+
+
+ATUALIZAÇÃO V5.1
+- foto de perfil da profissional
+- permite escolher imagem da galeria ou abrir a câmera em dispositivos compatíveis
+- imagem é redimensionada para reduzir armazenamento
+- foto fica circular no perfil
+- opção para remover a foto
+- nesta versão local, a imagem fica armazenada somente no navegador/aparelho
+
+
+V5.2 LOGIN E ÁREA DO CLIENTE
+- opção "Já sou cadastrado"
+- criação de conta local por e-mail e senha
+- perfis separados: Cliente, Profissional e Salão
+- cliente não vê Growth, financeiro, locadores, comissões ou ferramentas profissionais
+- área do cliente mostra próximo agendamento
+- lista de agendamentos
+- escolha de Laser Day
+- escolha de horário e procedimento
+- cancelamento de agendamento
+- telefone e observação relevante ao atendimento
+- sessão permanece no aparelho até sair
+
+IMPORTANTE:
+O login desta versão é apenas um protótipo local. Senhas ficam no armazenamento do navegador e NÃO é adequado para produção.
+Na versão online, autenticação e senhas devem ser tratadas por um serviço seguro de autenticação/backend.

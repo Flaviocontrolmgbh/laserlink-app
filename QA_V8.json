@@ -1,0 +1,9 @@
+{
+  "admin_publico_removido": true,
+  "supabase_signup": true,
+  "supabase_login": true,
+  "supabase_logout": true,
+  "perfil_backend": true,
+  "manifest": true,
+  "service_worker": true
+}
