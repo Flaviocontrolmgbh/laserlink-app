@@ -1,0 +1,11 @@
+{
+  "name": "LaserLink",
+  "short_name": "LaserLink",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4fa",
+  "theme_color": "#6f2dbd",
+  "icons": [],
+  "scope": "./",
+  "lang": "pt-BR"
+}
