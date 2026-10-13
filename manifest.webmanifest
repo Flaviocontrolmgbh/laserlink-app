@@ -1,0 +1,11 @@
+{
+  "name": "LaserLink",
+  "short_name": "LaserLink",
+  "description": "Plataforma LaserLink",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4fa",
+  "theme_color": "#6f2dbd",
+  "lang": "pt-BR"
+}
